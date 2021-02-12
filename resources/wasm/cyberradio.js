@@ -1870,10 +1870,10 @@ var tempI64;
 // === Body ===
 
 var ASM_CONSTS = {
-  28816: function() {throw 'Canceled!'},  
- 29088: function($0, $1) {setTimeout(function() { __emscripten_do_dispatch_to_thread($0, $1); }, 0);},  
- 42782: function() {return withBuiltinMalloc(function () { return allocateUTF8(Module['UBSAN_OPTIONS'] || 0); });},  
- 63084: function() {var setting = Module['printWithColors']; if (setting != null) { return setting; } else { return ENVIRONMENT_IS_NODE && process.stderr.isTTY; }}
+  28752: function() {throw 'Canceled!'},  
+ 29024: function($0, $1) {setTimeout(function() { __emscripten_do_dispatch_to_thread($0, $1); }, 0);},  
+ 42718: function() {return withBuiltinMalloc(function () { return allocateUTF8(Module['UBSAN_OPTIONS'] || 0); });},  
+ 63020: function() {var setting = Module['printWithColors']; if (setting != null) { return setting; } else { return ENVIRONMENT_IS_NODE && process.stderr.isTTY; }}
 };
 function initPthreadsJS(){ PThread.initRuntime(); }
 
@@ -9029,9 +9029,9 @@ var _asyncify_stop_rewind = Module["_asyncify_stop_rewind"] = function() {
   return (_asyncify_stop_rewind = Module["_asyncify_stop_rewind"] = Module["asm"]["asyncify_stop_rewind"]).apply(null, arguments);
 };
 
-var __emscripten_allow_main_runtime_queued_calls = Module['__emscripten_allow_main_runtime_queued_calls'] = 116188;
-var __emscripten_main_thread_futex = Module['__emscripten_main_thread_futex'] = 159064;
-var ___heap_base = Module['___heap_base'] = 5845296;
+var __emscripten_allow_main_runtime_queued_calls = Module['__emscripten_allow_main_runtime_queued_calls'] = 115692;
+var __emscripten_main_thread_futex = Module['__emscripten_main_thread_futex'] = 158552;
+var ___heap_base = Module['___heap_base'] = 5844784;
 var ___global_base = Module['___global_base'] = 1024;
 
 
