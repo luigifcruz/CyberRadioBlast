@@ -7,7 +7,7 @@ const prodConfig = {
   target: 'web',
   entry: path.resolve(__dirname, 'src/client/index.jsx'),
   output: {
-    path: path.resolve(__dirname, 'resources'),
+    path: path.resolve(__dirname, 'docs'),
     filename: 'bundle.js',
   },
   performance: {

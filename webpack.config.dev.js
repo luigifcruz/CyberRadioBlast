@@ -21,7 +21,7 @@ const devConfig = {
     process: false
   },
   output: {
-    path: path.resolve(__dirname, 'resources'),
+    path: path.resolve(__dirname, 'docs'),
     filename: 'bundle.js',
     publicPath: '/',
   },
