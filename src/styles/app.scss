@@ -1,0 +1,56 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', serif;
+    background-color: $background-color;
+    color: $text-color;
+}
+
+.app {
+    @media (min-width: 500px) {
+        justify-content: center;
+        align-items: center;
+        display: grid;
+    }
+}
+
+.header {
+    margin-top: .75em;
+    margin-bottom: 1em;
+}
+
+.header h1 {
+    font-family: 'Racing Sans One', serif;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+}
+
+.header h2 {
+    font-family: 'Press Start 2P';
+    font-weight: lighter;
+    text-align: center;
+    color: #4ACFAC;
+    font-size: 2.15em;
+    margin: 0;
+}
+
+.block {
+    border-radius: 0.75em;
+    margin: 0 .75em 0 .75em;
+}
+
+.block .block-body {
+    padding: 0.75em;
+    border-radius: 0.75em;
+    background: $backgroud-block;
+    margin-bottom: 1em;
+}
+
+.block .block-label {
+    margin-left: .5em;
+    font-size: .85em;
+    font-weight: 500;
+    color: #7E7E7E;
+}

@@ -1,0 +1,85 @@
+@import "btn";
+
+.player .frequency {
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto Mono';
+    font-weight: 300;
+    font-size: 3.5em;
+    overflow: hidden;
+}
+
+.player .information {
+    width: 100%;
+    display: flex;
+    margin-top: .5em;
+}
+
+.player .small {
+    margin-top: .25em;
+
+    .flag {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.player .small .hostname {
+    font-style: italic;
+    font-size: .75em;
+    font-weight: lighter;
+    margin-top: .15em;
+    color: $light-background-text-color;
+}
+
+.player .information .left { 
+    width: 25%;
+    display: flex;
+}
+
+.player .information .right { 
+    width: 75%;
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.player .information .flag {
+    padding: .5em .75em .5em .75em;
+    margin: 0 .15em 0 .15em;
+    border-radius: .5em;
+    background: $background-hightlight-color;
+    font-weight: 500;
+}
+
+.player .receiver {
+    display: flex;
+}
+
+.player .volume {
+    display: flex;
+    justify-content: space-between;
+
+    input {
+        width: 20em;
+    }
+
+    svg {
+        margin-top: .01em;
+        width: 3.5em;
+    }
+}
+
+.player .controls {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 0 1em 0;
+    padding: 0 .1em 0 .1em;
+}
+
+.player .controls button {
+    @extend .btn;
+    border: none;
+    padding: 1em;
+    width: 32%;
+    background: rgba(#ffffff, .1);
+}

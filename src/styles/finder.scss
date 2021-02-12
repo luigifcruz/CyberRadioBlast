@@ -1,0 +1,56 @@
+@import "btn";
+
+
+.finder .search {
+    display: flex;
+}
+
+.finder .text-input {
+    background-color: rgba(#ffffff, .1);
+    border: 0.1em solid rgba(#ffffff, .1);
+    border-radius: .5em;
+    outline: none;
+    flex-grow: 100;
+    padding: .5em;
+    color: white;
+}
+
+.finder .btn-connect {
+    margin-left: 1em;
+    @include btn-size(7.5em, 3.0em);
+}
+
+.finder .source-card {
+    margin-top: .75em;
+    padding: .5em;
+    border-radius: .5em;
+    background: $green-color;
+}
+
+.finder .source-card h1 {
+    font-size: 1.25em;
+    font-weight: 600;
+    margin: 0;
+}
+
+.finder .source-card h2 {
+    font-size: 1em;
+    font-weight: 500;
+    margin: 0;
+}
+
+.finder .source-card h3 {
+    margin: 0;
+    font-style: italic;
+    font-size: .75em;
+    font-weight: lighter;
+    margin-top: .15em;
+}
+
+
+.finder .source-card button {
+    @extend .btn;
+    margin-top: .5em;
+    width: 100%;
+    height: 2.5em;
+}

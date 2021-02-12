@@ -1,0 +1,76 @@
+.sources .source {
+    background: $background-hightlight-color;
+    border-radius: 0.75em;
+    padding: .5em;
+}
+
+.sources .filler {
+    margin: 1em 0 1em 0;
+
+    svg {
+        width: 100%;
+    }
+
+    p {
+        width: 100%;
+        text-align: center;
+        margin: .5em 0 0 0;
+        font-size: .85em;
+    }
+}
+
+.sources .filler a {
+    color: $light-background-text-color;
+    margin-left: .25em;
+}
+
+.sources .source h1 {
+    font-size: 1.15em;
+    font-weight: 600;
+    margin: 0;
+}
+
+.sources .source h2 {
+    margin: 0;
+    font-size: 1em;
+    font-weight: lighter;
+    color: $light-background-text-color;
+}
+
+.sources .source h3 {
+    margin: 0;
+    font-style: italic;
+    font-size: .75em;
+    font-weight: lighter;
+    margin-top: .15em;
+    color: $light-background-text-color;
+}
+
+.sources .station {
+    background-color: $backgroud-block;
+    border-radius: 0.75em;
+    margin-top: .5em;
+    padding: .5em;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sources .station h1 {
+    font-family: 'Roboto Mono';
+    font-weight: 400;
+    font-size: 1.5em;
+    overflow: hidden;
+    align-self: center;
+    margin-right: auto;
+}
+
+.sources .station .flag {
+    padding: .35em .5em .35em .5em;
+    margin: 0em .15em 0 .15em;
+    border-radius: .5em;
+    background: $background-hightlight-color;
+    font-weight: 500;
+    font-size: .75em;
+    align-self: center;
+}
