@@ -1,5 +1,5 @@
 # :crystal_ball: CyberRadio Blast
-### An browser based SDR console.
+### A browser based SDR console.
 Based on the [webusb-libusb](https://github.com/luigifcruz/webusb-libusb) library. Powered by WebAssembly and Emscripten.
 
 <p align="center">
