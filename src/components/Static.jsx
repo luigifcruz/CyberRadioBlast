@@ -26,7 +26,7 @@ class Static extends Component {
             <div className="filler">
               <p><b>Support the development of this FOSS project.</b></p>
               <p>
-                <a href="https://github.com/luigifcruz/webusb-libusb">GitHub</a> |
+                <a href="https://github.com/luigifcruz/CyberRadioBlast">GitHub</a> |
                 <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TAA65AJMC7498&source=url">PayPal</a> |
                 <a href="https://patreon.com/luigifcruz">Patreon</a> |
                 <a href="buymeacoffee.com/luigi">Buy Me A Coffee</a>

@@ -15,7 +15,7 @@ app.use(
 
 app.use(require('webpack-hot-middleware')(compiler));
 
-app.use('/', express.static(path.join(__dirname, 'resources')));
+app.use('/', express.static(path.join(__dirname, 'docs')));
 
 app.listen(5557);
 console.log(`Simulator started at port 5557...`);
