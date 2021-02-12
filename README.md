@@ -3,7 +3,7 @@
 Based on the [webusb-libusb](https://github.com/luigifcruz/webusb-libusb) library. Powered by WebAssembly and Emscripten.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/luigifcruz/CyberRadioBlast/main/resources/cyberradio-blast.png" />
+<img src="https://raw.githubusercontent.com/luigifcruz/CyberRadioBlast/main/docs/cyberradio-blast.png" />
 </p>
 
 ## Installation
